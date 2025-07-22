@@ -4,7 +4,6 @@ import usersRouter from './routes/users/users.js';
 import queriesRouter from './routes/queries/queries.js'
 
 const app = express();
-const port = process.env.PORT || 4000; 
 
 app.use(express.json());
 
