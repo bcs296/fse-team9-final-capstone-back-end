@@ -8,7 +8,8 @@ if (!apiKey) {
     process.exit(0);
 }
 
-const baseUrl = 'https://newsapi.org/v2/top-headlines';
+/*const baseUrl = 'https://newsapi.org/v2/top-headlines';*/
+const baseUrl = 'https://newsapi.org/v2/everything';
 function addApiKey(queryObject) {
     return { ...queryObject, apiKey: apiKey }
 }
